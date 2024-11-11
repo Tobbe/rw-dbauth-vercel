@@ -1,0 +1,32 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "browserslist": {
+    "development": [
+      "last 1 version"
+    ],
+    "production": [
+      "defaults"
+    ]
+  },
+  "dependencies": {
+    "@redwoodjs/auth-dbauth-web": "9.0.0-canary.246",
+    "@redwoodjs/forms": "9.0.0-canary.246",
+    "@redwoodjs/router": "9.0.0-canary.246",
+    "@redwoodjs/web": "9.0.0-canary.246",
+    "humanize-string": "2.1.0",
+    "react": "19.0.0-rc-f2df5694-20240916",
+    "react-dom": "19.0.0-rc-f2df5694-20240916"
+  },
+  "devDependencies": {
+    "@redwoodjs/vite": "9.0.0-canary.246",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "postcss-loader": "^8.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.12",
+    "tailwindcss": "^3.4.14"
+  }
+}
